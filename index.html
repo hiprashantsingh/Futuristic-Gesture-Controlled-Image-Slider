@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gesture-Controlled Image Slider</title>
+    <link rel="stylesheet" href="styles38.css">
+</head>
+<body>
+    <div class="gesture-slider-container">
+        <div class="permission-prompt" id="permissionPrompt">
+            <div class="permission-content">
+                <h2>Touchless Interaction</h2>
+                <p>For the best experience, allow camera access to control the slider with hand gestures.</p>
+                <div class="permission-buttons">
+                    <button id="enableCamera">Enable Gesture Control</button>
+                    <button id="useTouch">Continue with Touch</button>
+                </div>
+                <p class="privacy-note">No images or biometric data are stored. Processing happens entirely in your browser.</p>
+            </div>
+        </div>
+
+        <div class="gesture-feedback" id="gestureFeedback">
+            <div class="hand-indicator"></div>
+            <div class="gesture-hint"></div>
+        </div>
+
+        <div class="slider-wrapper">
+            <div class="gesture-slider" id="gestureSlider">
+                <!-- Slides will be injected here -->
+            </div>
+            <div class="slider-controls">
+                <button class="prev-btn" aria-label="Previous slide">←</button>
+                <div class="slide-indicators"></div>
+                <button class="next-btn" aria-label="Next slide">→</button>
+            </div>
+        </div>
+
+        <div class="gesture-help" id="gestureHelp">
+            <div class="gesture-icons">
+                <div class="gesture-icon" data-gesture="swipe-right">
+                    <div class="hand-swipe-right"></div>
+                    <span>Next</span>
+                </div>
+                <div class="gesture-icon" data-gesture="swipe-left">
+                    <div class="hand-swipe-left"></div>
+                    <span>Previous</span>
+                </div>
+                <div class="gesture-icon" data-gesture="pinch">
+                    <div class="hand-pinch"></div>
+                    <span>Zoom</span>
+                </div>
+                <div class="gesture-icon" data-gesture="open-palm">
+                    <div class="hand-palm"></div>
+                    <span>Pause</span>
+                </div>
+            </div>
+            <button class="close-help">Got It</button>
+        </div>
+
+        <div class="camera-feed-container">
+            <video id="cameraFeed" playsinline></video>
+            <canvas id="gestureCanvas"></canvas>
+        </div>
+    </div>
+
+    <!-- Load TensorFlow.js and MediaPipe Hands -->
+    <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@3.18.0/dist/tf.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@mediapipe/hands/hands.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@mediapipe/camera_utils/camera_utils.js"></script>
+    
+    <script src="script38.js"></script>
+</body>
+</html>
