@@ -1,4 +1,4 @@
-// script.js
+// script.js Futuristic Gesture-Controlled Image Slider
 document.addEventListener('DOMContentLoaded', async function() {
     // Configuration
     const config = {
