@@ -7,35 +7,35 @@ document.addEventListener('DOMContentLoaded', async function() {
                 id: 'travel',
                 title: 'Exotic Destinations',
                 description: 'Explore breathtaking locations around the world with our curated travel experiences.',
-                image: 'https://source.unsplash.com/random/1200x600/?travel,beach',
+                image: 'food.jpg',
                 color: '#00a8ff'
             },
             {
                 id: 'cars',
                 title: 'Luxury Automobiles',
                 description: 'Discover the latest in automotive innovation and design from leading manufacturers.',
-                image: 'https://source.unsplash.com/random/1200x600/?luxury,car',
+                image: 'sky.jpg',
                 color: '#e84118'
             },
             {
                 id: 'gadgets',
                 title: 'Cutting-Edge Tech',
                 description: 'Stay ahead with the newest gadgets and technology that will transform your daily life.',
-                image: 'https://source.unsplash.com/random/1200x600/?gadget,tech',
+                image: 'sports.jpg',
                 color: '#9c88ff'
             },
             {
                 id: 'food',
                 title: 'Gourmet Experiences',
                 description: 'Indulge in culinary masterpieces from world-renowned chefs and restaurants.',
-                image: 'https://source.unsplash.com/random/1200x600/?gourmet,food',
+                image: 'food.jpg',
                 color: '#fbc531'
             },
             {
                 id: 'fashion',
                 title: 'Haute Couture',
                 description: 'Be inspired by the latest trends from the world of high fashion and design.',
-                image: 'https://source.unsplash.com/random/1200x600/?fashion,model',
+                image: 'fitness',
                 color: '#e84393'
             }
         ],
