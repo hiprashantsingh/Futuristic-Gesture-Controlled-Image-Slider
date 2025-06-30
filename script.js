@@ -7,21 +7,21 @@ document.addEventListener('DOMContentLoaded', async function() {
                 id: 'travel',
                 title: 'Exotic Destinations',
                 description: 'Explore breathtaking locations around the world with our curated travel experiences.',
-                image: 'food.jpg',
+                image: 'beach.jpg',
                 color: '#00a8ff'
             },
             {
                 id: 'cars',
                 title: 'Luxury Automobiles',
                 description: 'Discover the latest in automotive innovation and design from leading manufacturers.',
-                image: 'sky.jpg',
+                image: 'sports.jpg',
                 color: '#e84118'
             },
             {
                 id: 'gadgets',
                 title: 'Cutting-Edge Tech',
                 description: 'Stay ahead with the newest gadgets and technology that will transform your daily life.',
-                image: 'sports.jpg',
+                image: 'technology.jpg',
                 color: '#9c88ff'
             },
             {
@@ -35,7 +35,7 @@ document.addEventListener('DOMContentLoaded', async function() {
                 id: 'fashion',
                 title: 'Haute Couture',
                 description: 'Be inspired by the latest trends from the world of high fashion and design.',
-                image: 'fitness',
+                image: 'fitness.jpg',
                 color: '#e84393'
             }
         ],
