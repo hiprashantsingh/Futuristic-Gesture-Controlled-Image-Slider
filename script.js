@@ -39,14 +39,14 @@ document.addEventListener('DOMContentLoaded', async function() {
                 color: '#e84393'
             }
         ],
-    //     slideInterval: 5000, // Auto-slide interval in ms
-    //     gestureSensitivity: {
-    //         swipe: 30, // Pixels of movement to detect swipe
-    //         pinch: 0.2, // Ratio of distance change to detect pinch
-    //         palmDuration: 1000 // ms of open palm to detect
-    //     },
-    //     debugMode: false // Set to true to log gesture data
-    // };
+        slideInterval: 5000, // Auto-slide interval in ms
+        gestureSensitivity: {
+            swipe: 30, // Pixels of movement to detect swipe
+            pinch: 0.2, // Ratio of distance change to detect pinch
+            palmDuration: 1000 // ms of open palm to detect
+        },
+        debugMode: false // Set to true to log gesture data
+    };
 
     // DOM Elements
     const slider = document.getElementById('gestureSlider');
