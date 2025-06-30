@@ -39,7 +39,7 @@ document.addEventListener('DOMContentLoaded', async function() {
                 color: '#e84393'
             }
         ],
-        // slideInterval: 5000, // Auto-slide interval in ms
+        slideInterval: 90000, // Auto-slide interval in ms
         gestureSensitivity: {
             swipe: 30, // Pixels of movement to detect swipe
             pinch: 0.2, // Ratio of distance change to detect pinch
