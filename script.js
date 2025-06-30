@@ -14,7 +14,7 @@ document.addEventListener('DOMContentLoaded', async function() {
                 id: 'cars',
                 title: 'Luxury Automobiles',
                 description: 'Discover the latest in automotive innovation and design from leading manufacturers.',
-                image: 'sports.jpg',
+                image: 'https://images.unsplash.com/photo-1488134684157-fea2d81a5ec4?q=80&w=872&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
                 color: '#e84118'
             },
             {
@@ -39,7 +39,7 @@ document.addEventListener('DOMContentLoaded', async function() {
                 color: '#e84393'
             }
         ],
-        slideInterval: 5000, // Auto-slide interval in ms
+        // slideInterval: 5000, // Auto-slide interval in ms
         gestureSensitivity: {
             swipe: 30, // Pixels of movement to detect swipe
             pinch: 0.2, // Ratio of distance change to detect pinch
